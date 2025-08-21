@@ -1,12 +1,13 @@
 # Introduction
-This is a simple CSTR (Continuous stirred-tank reactor) Simulator 
+This is a simple CSTR (Continuous Stirred-Rank Reactor) Simulator 
 
-In the python code(cstr_test.py), there are two treads .
-- One is simulation_loop
-- Other one is ui_loop
+Two python files. 
+
+sim_server.py : Simulator + Simple Modbus Server 
+hmi_client.py : HMI + Simple Modbus Client 
 
 In Attack Scenario, 
-  If Jacket Water 300 K -> 305K for a few seconds, The system will fall out of equilibrium.
+  If Jacket Water (Coolant) 300 K -> 305K for a few seconds, The system will fall out of equilibrium.
 
 # Execution Example. 
 ## Normal 
