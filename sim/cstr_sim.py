@@ -225,6 +225,9 @@ def simulation_thread(
         elapsed = time.perf_counter() - loop_start_time
         time.sleep(max(0.0, integration_dt_sec - elapsed))
 
+
+"""
+SIM + MODBUS_SERVER 
 # ──────────────────────────────────────────────────────
 # 8. Modbus 서버 실행 (main 함수 변경 없음)
 # ──────────────────────────────────────────────────────
@@ -245,3 +248,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+"""
